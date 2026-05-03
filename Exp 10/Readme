@@ -1,0 +1,31 @@
+Aim: Simulate systems and network logs to simulate incident reconstruction
+
+Theory: Incident reconstruction in a core process in digital forensics where investigators analyze system and network logs logs to rebuild the sequence of events that occurred during a cyber attack.
+
+The main goal is to identify
+
+What happened
+
+where it happened
+
+How it happened
+
+Who was involved
+
+Log Correlation
+
+Data is distributed across multiple systems
+
+Log correlation combines these data sets to identify potterns and detect relationships.
+
+Timeline Creation
+
+Timaline is an open-source platform designed for log aggregates, and investigation.
+
+Role of data
+
+Dorker is used to simplify deployment and timesketch.
+
+Timesketch has no multiple components. Web interface, database, search engine
+
+Dorker ensures all of these components work together
