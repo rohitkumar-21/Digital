@@ -1,0 +1,27 @@
+Aim: Hash basad file Comparison and Integrity verification
+
+Tool used: Standard Linux/Unix tools for SHA-256 Hash generation.
+
+Methodology
+
+少 Baseline Generation
+
+Ls Create a hash manifest of a clean set of system files.
+
+2) Comparison
+
+Modified a single byte within a configuration file and rehashed it to observe the avalanche effect
+
+Verification
+
+Used SHA-256 som-c to automatically check a list of files aganist a known good manifest
+
+4) Collision Testing
+
+↳ Discussed why MD5 is no longer sufficient for high-security environments as compared to SHA-256.
+
+Result.
+
+Successfully identified three files that were modified using the wiping utility
+
+2) Demonstrated that hashing can detect even a 1-bit change in a 1GB file
