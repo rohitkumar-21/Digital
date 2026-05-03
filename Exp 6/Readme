@@ -1,0 +1,67 @@
+Aim:To analyze email headers for tracing sender IP and relay server P&P signed and encrypted for and te verify authenticity lintegrity of message using Thunderbird a spy twin.
+
+Theory:
+
+1)Email Header
+
+>Added by mail ralay; read-bottom-to-top to trace path. From, Return-Path, Message-ID, Recieved, Authentication Results.
+
+↳ Only trusted headers from your own mail provider.
+
+2)PGP/GPG
+
+↳ Encrypt with recipients public key; decrypt with private key. Is Hash encrypted with senders private key ensures authenticity
+
+↳ Windows CP suits [kteopatra for key management?
+
+L>Build in Open Pap[no Enigmail needed
+
+↳ sign + Encrypt provides both authentication and confidentiality.
+
+Methodology:
+
+1)Setup and Keys [P&P Ywin + Klepatra]
+
+Install apgywin with Thunderbird
+
+Generate key pairs [Name Email + Passphrase]
+
+Export public Key (asd and oxchange with potrier
+
+Import Partner's public key.
+
+2)Email Header Analysis [Thunderbird]
+
+Open Email Ctrl+U [View Source]
+
+Locate all Recieved: headers (bottom-origin)
+
+Identify originating IP and each relay hop.
+
+Use IP geolocation to verify path consistency.
+
+3)File Encryption (P&P)
+
+ Right click file "sign and Encrypt
+
+select partner's public key Encrypt
+
+send gpg file Partner decrypt with private key.
+
+4)Digital Signature [Thunderbind
+
+Ls Account Settings End End-to-End Encryption Add your key
+
+Signature" La Compase email Security dropdown Check "Stequire Digital
+
+5)Encrypted Email
+
+Compose email check both "Require Digital Signature"& Required Encryption"
+
+Thunderbird auto-encrypts with recipients public key. Recipient decrypts automatically with private key.
+
+Future Scope
+
+hardware security Automated email encryption gateways, hord modules (smart cords) for meg storage and integration with S/MIME of enterprise compliance [GDPR/HI PAR]
+
+Result
