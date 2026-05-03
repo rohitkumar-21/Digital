@@ -1,0 +1,57 @@
+Aim:To examine browser history, cache and cookies wing forensics tools and Secover web browsing artifacts such as visited and cooki order to analyze Ewer behaviour and detect possible security threats
+
+Requirements: Browsing History view, chrome cache view, bilge cookies
+
+Procedure:
+
+Step1: Launch History Analysis tool.
+
+Open browsing history view.exe
+
+The tool automatically loads brousser history from the system.
+
+step2: Analyze Browser History
+
+Observe the following fields:
+
+URL visited
+
+Vieit time
+
+Visit Count
+
+Sort data based on date/time.
+
+Identify frequently visited and suspicious websites.
+
+Stepa: Examine Cache Data
+
+Open chrome cache view.exe
+
+load Cache files automatically or manually select cache
+
+folder
+
+Analyze: Cached Images, HTML files, scripts.
+
+Step 4: Analyze Cookies
+
+Open Cookies viewer tool.
+
+Observe: Website domain.
+
+ii) Cookies name
+
+Expiry time
+
+Identify session-related and tracking cookies.
+
+Steps: Export Dota
+
+Select requirement entries.
+
+Save as HIML/Csv report
+
+Use report for decismentestion and analysic
+
+MOORE PVSTITUTE OF ENCINTERING & TREННЬОГОСУ (АКТИВОВ OF BRADRAL JANAH
