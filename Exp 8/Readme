@@ -1,0 +1,59 @@
+Aimi To analyze an android device moge and extract dors such as cr massage (sms) and applicatiost date weing forensis tools wh Legs, mas understand user activity and identify potential scan
+
+ing
+
+Requirement: Autopsy, Andriller, Android device Image
+
+Procedure:
+
+1: Load android Image in autopsy.
+
+Opan Autopsy
+
+Create a new case.
+
+Add data source Select Disk Image/vrt File
+
+Browser and select the Android Image bile
+
+5) Start the analysis.
+
+Step2: Extract Call logs
+
+Novigate to.
+
+a artifacts Call logs.
+
+2 View
+
+Phone no.
+
+→Call type
+
+→Date & Time
+
+Durvation.
+
+Step3: Extract SMS Message.
+
+Go to
+
+→Data artifacts Message/sms.
+
+Analyze
+
+→ sender & Receiver
+
+→Message content
+
+→Timestamp.
+
+Stepy: Analyze Application Data
+
+Novigate to:
+
+Installed Programs/Application Data
+
+Lock For:
+
+Social Media Apps.
