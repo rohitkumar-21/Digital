@@ -1,0 +1,29 @@
+Aim:To capture volatile memory from a live system using Dumpit and analyze memory image with volatility to extract running processes network connections arld identify hidden malicious activities
+
+Theory:
+Volatile Memory Forensics :RAM contains real-time system state including Processes, network connectens and unencrypted.
+Dumpit A lightweigh windows utility that creates a fell memsry dump with minimal disk corites, preventing evidence integrity
+Volatile Framework: An open-source Python based tool for analyzing memory dumps across windows Linux and macos to extract artifacts and detects malware
+Malware Evasion: Attackers use process hiding, bileless bileless execution and Socket manipulation to evade traditional.
+Key Artifacts: Process lists, parent-child relationships, active network connections and injected code regions revel malware
+
+Methodology:
+
+1. Acquisition with Dumplt.
+
+2. Image Analysis with Volatility
+
+  Identify Os
+
+   List Processes
+
+     Analysis process tree
+
+       Extract network connections
+
+          Detect injected code.
+
+Future Scope)
+
+Implement this memory forensics pipeline as an automated incident response tool that integrates with SIEM platforms to enable real-time detection, 
+alerting and containment of memory-resident threats during active breaches.
