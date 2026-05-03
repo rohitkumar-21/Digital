@@ -1,0 +1,32 @@
+Aim To create a forensically sound, bit-for-bit copy of a storage device using FTK Image or Guy mager. To verify the imager integrity by comparing the SHA-256 hash volve of the original source and the 
+final image file.
+
+Theory:
+> Forensic Imaging
+
+جاForensic sound
+
+>Image Formats:
+      Row/DD(dd,img)
+
+>Integrity & Hoshing
+
+>Chain of custody
+
+Methodology:
+
+1. Prepare: Connect source device to write blocker.
+
+2. Select source file Create Disk Image Select the source drive
+
+3. Configure: Click Add Choose image type [Raw or fai] Enter case details
+
+             →Select destination folder
+
+4. Verily: Click the box [verify image after they are created] Click [Start]
+
+5. Documentation: After Completion, note SHA-256 hash from the verification window in your chain of Custody log
+
+Future Scope:
+
+The foundation skill enables further forensic analysis Such as file recovery and artifact examination. Futhore work con include imaging volatile memory [Ram] or acquiring evidence from cloud storage environment
