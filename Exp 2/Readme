@@ -1,0 +1,47 @@
+Aim-To recover deleted files from disk image of using the sketch kit and autospy and to analyze file metadata (timestamps,ownership) to Interpet digital evidence and reconstruct user activity.
+
+Theory:
+
+>The process of preventing, identifying and analyzing digital data for use in legal processdings.
+
+>A command line collection that passes file system structures to recover data and read metadata without altering evidence.
+
+>Key timestamps recorded by file systems:
+
+Modification [M]
+
+Access [A]
+
+Creation [c]
+
+Methodology:
+
+Part A: Setup Analysis                
+
+ >Install                                   
+ >Launch Autopsy
+ >Create Case                                              
+ >Add Data Source
+ >Ingest Modules                                                
+
+Part B:Recoving Deleted Files                                                 
+ >Using Terminal                                           
+ >List Deleted files
+ >Recover file                                                 
+ >Using Autopsy
+ >Navigate to "File view"                                                   
+ >File with red 'x'
+ >Select extract file
+                                                      
+
+Part C: Inspecting Meta-data
+
+>Using Terminal
+
+>Using Autopsy
+
+>Timeline
+
+Future Scope!
+
+Skills learned can be applied to complex file Systems[APFS, EXT4] and detecting anti-forensic techniquos [timestamp manipulations]
