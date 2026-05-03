@@ -1,0 +1,45 @@
+Aim: To extract hidden metadata [auther, timestamps de image and PDF cwing exftool and PDF info and understand its main in digital forens ces
+
+Theory:
+
+Metadata: Hidden data inside file [author, data lips, software]
+
+ExifTool: reads/writes metadata from images, videos, PDf etc
+
+PDFinge Extracts metadata specifically from Por documents
+
+forensic value Timestamps verify abibis, GPS genlecules suspects potter/software links files to devices
+
+Stripping meladata: It can help evidences.
+
+Methodology:
+
+1)Setup install
+
+Is Install Exiftool and PDFinfe prepare a JPEG and a PDF
+
+2)Exif Tool
+
+Run enflood imag jpg → view all metadata
+
+Filler enflool GPS Position Create Date image.jpg.
+
+3)PDFinfo
+
+Ls Run pdfinfo document-pdf view author, dotes, files.
+
+4)Analyze
+
+Check for gps coordinatos, mismatched timestamps or author names
+
+5)Optional
+
+Strip metadata: exiftool-all-cleared-jpg
+
+Future scope
+
+L↳ GPS coordinates and devices details extracted from the image.
+
+usefel for geolocation.
+
+La Metadata removal wiped all fields-showing both investigative
