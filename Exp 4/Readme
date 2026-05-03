@@ -1,0 +1,46 @@
+Aim: To generate a chronological timeline of system events using file system meladata through Plasto or Autospy and to identify anemaleus user or system behaviour through timeline analysis techniques
+
+Theary
+
+Timeline Analysis: Temporal reconstruction of system activities using timestamps to correlated events and establish sequence of actions on a system
+
+File System Timestamps:
+                      NTES
+                      FAT
+                      Unix/Linux
+
+L↳ Plaso [log2 timeline]: Automated timeline generator using multiple parsers with parallel processing, exports to Plaso storage format
+
+L↳ Autospy Timeline: UI-based tool using the sleuth Kit, provides three views
+
+Counts Views
+
+Detail Views
+
+L List Views
+
+Event Categories: File system events, web activities and installed programs, registry changes, device attachments, Exif metadata.
+
+Anormally Detection: Macro-level baseline analysis + micro-level examination of suspicious time windows; filter using NSRL hash database to exclude known system files.
+
+Methodology:
+
+1. Pre-Processing
+
+Select image disk
+
+↳ Identify Partations and handles encryption volumes
+
+2 Plaso Timeline Generation
+
+3 Autospy Timeline Generation
+
+    Use Count's Views
+
+     supply filtres
+
+4. Anomally Identification
+
+Establish baseline
+
+Document findings
